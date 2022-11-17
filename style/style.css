@@ -3,7 +3,119 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* Navbar */
+nav {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    letter-spacing: .1vw;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin-left: 1vw;
+    margin-right: .1vw;
+
+}
+
+.navbar-nav .nav-item .nav-link a {
+    color: #54524f;
+
+}
+
+.collapse form input{
+    background-color: #7f7770;
+    opacity: 47%;
+    width: 80%;
+}
+
+.collapse form button {
+    color: #54524f;
+    height: 5.5vh;
+    width: 3.5vw;
+    position: absolute;
+    margin-left: 9vw;
+}
+
+@media (max-width: 1200px) {
+    .collapse form input{
+        width: 100%;
+    }
+
+    .collapse form button {
+        position: relative;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    min-height: 100vh;
+}
+
+.jumbotron .container {
+    padding-top: 26vh;
+}
+
+.jumbotron .container h1, h3 {
+    text-transform: uppercase;
+}
+
+.jumbotron .container h1 {
+    font-weight: 900;
+    color: #deb37e;
+    text-shadow: 3px -2px 5px rgba(0, 0, 0, .22);
+}
+
+.jumbotron .container h3 {
+    font-weight: 700;
+    color: #54524f;
+    font-style: italic;
+}
+
+.jumbotron .container button {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #776c64;
+    margin-top: 4vh;
+    width: 150px;
+}
+
+.jumbotron .container .text {
+    width: 37%;
+    margin-top: 1vh;
+}
+
+.jumbotron .container p {
+    font-weight: 500;
+    font-style: italic;
+    color: #54524f;
+    word-break: keep-all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar
 .navbar .navbar-nav .nav-link {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -18,7 +130,7 @@
 }
 
 
-/* Jumbotron */
+/* Jumbotron
 .jumbotron-fluid {
     background-image: url(../img/bg-1.png);
     background-size: cover;
@@ -60,9 +172,9 @@
 
 .jumbotron .container {
     margin-top: 170px;
-}
+} */
 
-/* Let's GO */
+/* Let's GO
 section#letsgo .container-fluid h1.head {
     text-align: center;
     margin-top: 7%;
@@ -112,9 +224,9 @@ section .bottom img {
     position: absolute;
     opacity: 48%;
     margin-bottom: 80px;
-}
+} */
 
-/* Discount */
+/* Discount
 section#discount {
     margin-top: 100px;
     background-color: #7f7770;
@@ -154,9 +266,9 @@ section#discount .btn-warning {
     height: 48px;
     margin-left: 80px;
     margin-top: 10px;
-}
+} */
 
-/* Promo */
+/* Promo
 section#promo {
     background-color: #deb37e;
     padding: 0;
@@ -196,9 +308,9 @@ section#promo .btn-warning {
     height: 48px;
     margin-left: 100px;
     margin-top: 30px;
-}
+} */
 
-/* text/Banner */
+/* text/Banner
 section#text {
     overflow: hidden;
     background-color: #7f7770;
@@ -269,9 +381,9 @@ section#text .jumbotron.banner .black h1.display-4 {
     font-style: italic;
     color: #54524f;
     text-transform: uppercase;
-}
+} */
 
-/* buch of text */
+/* buch of text
 section#text2 {
     margin-top: 150px;
 }
@@ -285,10 +397,10 @@ section#text2 .container h3 {
 section#text2 .container p {
     color: #333d42;
     
-}
+} */
 
 
-/* Qoute */
+/* Qoute
 section#quote {
     overflow: hidden;
 }
@@ -364,9 +476,9 @@ section#subscribe .form-row button.btn-secondary {
 section#subscribe .container-fluid .cloud-down img {
     z-index: 30;
     margin-left: -15px;
-}
+} */
 
-/* Footer */
+/* Footer
 section#footer {
     margin-top: -100px;
     background-color: #7f7770;
@@ -409,6 +521,7 @@ section#footer footer {
 section#footer footer a {
     text-decoration: none;
     color: white;
-}
+}  */
+
 
 
