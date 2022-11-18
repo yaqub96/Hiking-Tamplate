@@ -60,12 +60,14 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
-    min-height: 100vh;
+    background-attachment: fixed;
+    margin-top: -9.4vh;
+    min-height: 110vh;
 }
 
 .jumbotron .container {
-    padding-top: 26vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
 }
 
 .jumbotron .container h1, h3 {
@@ -104,6 +106,91 @@ nav {
     word-break: keep-all;
 }
 
+/* Group2 */
+.container-fluid {
+    background-image: url(../img/cloud-down.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    min-height: 55vh;
+    margin-top: -20vh;
+}
+
+@media (max-width: 1300px) {
+    .container-fluid {
+        margin-top: -25vh;
+    }
+}
+
+.group2 .container {
+    margin-top: -25vh;
+    text-align: center;
+}
+
+.group2 .container h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 6vh;
+    color: #e2a355;
+}
+
+.group2 .container .text-group2 {
+    color: #7f7770;
+    font-weight: 400;
+    width: 30vw;
+    margin: 4vh auto;
+}
+
+.group2 .container .pic {
+    margin-top: 8vh;
+}
+
+.group2 .container .pic .card {
+    width: 18rem;
+    height: 27rem;
+    margin: auto;
+    text-align: left;
+}
+
+.group2 .container .pic .row .col {
+    margin-bottom: 4vh;
+}
+
+.group2 .container .pic .card .card-body {
+    background-color: #7f7770;
+    color: white;
+}
+
+.group2 .container .pic .card .card-body .card-title {
+    font-weight: 700;
+    margin-top: 4vh;
+}
+
+.group2 .container .pic .card .card-body .card-text {
+    font-weight: 300;
+}
+
+.group2 .container .pic button {
+    margin: 3vh auto;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .2em;
+    width: 16rem;
+    height: 3rem;
+    background-color: #7f7770;
+}
+
+.bg-group2 {
+    background-image: url(../img/bg-2.png);
+    background-position: bottom -5vh left -25vw;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    opacity: 47%;
+    margin-top: -88vh;
+    min-height: 100vh;
+}
 
 
 
