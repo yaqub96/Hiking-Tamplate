@@ -197,6 +197,12 @@ nav {
     overflow: hidden;
 }
 
+@media (max-width: 1200px) {
+    .group3 .row {
+        display: block;
+    }
+}
+
 .group3 .row .col {
     padding: 0;
 }
@@ -214,9 +220,9 @@ nav {
 }
 
 .group3 .row .col .discount h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .group3 .row .col .discount p {
@@ -237,14 +243,14 @@ nav {
 .group3 .row .col .promo {
     background-color: #deb37e;
     color: white;
-    padding: 28vh 8vw 2vh 11vw;
+    padding: 28vh 8vw 10vh 11vw;
     height: 100%;
 }
 
 .group3 .row .col .promo h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .group3 .row .col .promo p {
