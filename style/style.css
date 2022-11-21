@@ -126,6 +126,7 @@ nav {
 .group2 .container {
     margin-top: -25vh;
     text-align: center;
+    padding-bottom: 20vh;
 }
 
 .group2 .container h2 {
@@ -171,7 +172,7 @@ nav {
     font-weight: 300;
 }
 
-.group2 .container .pic button {
+.group2 .container button {
     margin: 3vh auto;
     color: white;
     text-transform: uppercase;
@@ -182,27 +183,74 @@ nav {
     background-color: #7f7770;
 }
 
-.bg-group2 {
+.group2 {
     background-image: url(../img/bg-2.png);
-    background-position: bottom -1vh left -25vw;
-    background-attachment: scroll;
+    background-position: bottom -5vh left -30vw;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 47%;
-    margin-top: -88vh;
-    margin-bottom: 6vh;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
-/* Group 3 */
+/* Group 3 & 4*/
 .group3 {
     margin: auto;
+    overflow: hidden;
 }
 
-.group3 .row .col .image {
-    width: 25vw;
+.group3 .row .col {
+    padding: 0;
 }
 
+.group3 .row .col .image img {
+    width: 100%;
+    height: 100%;
+}
 
+.group3 .row .col .discount {
+    background-color: #7f7770;
+    color: white;
+    padding: 28vh 5vw;
+    height: 100%;
+}
+
+.group3 .row .col .discount h3 {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.group3 .row .col .discount p {
+    font-weight: 400;
+    margin-top: 4vh;
+}
+
+.group3 .row .col button {
+    font-weight: 700;
+    background-color: #e2a355;
+    color: white;
+    width: 180px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin-top: 4vh;
+}
+
+.group3 .row .col .promo {
+    background-color: #deb37e;
+    color: white;
+    padding: 28vh 8vw 2vh 11vw;
+    height: 100%;
+}
+
+.group3 .row .col .promo h3 {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.group3 .row .col .promo p {
+    font-weight: 400;
+    margin-top: 4vh;
+}
 
 
 
