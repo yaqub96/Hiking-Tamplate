@@ -192,13 +192,16 @@ nav {
 }
 
 /* Group 3 & 4*/
-.group3 {
+.group3, .group4 {
     margin: auto;
     overflow: hidden;
 }
 
 @media (max-width: 1200px) {
     .group3 .row {
+        display: block;
+    }
+    .group4 .row {
         display: block;
     }
 }
@@ -240,24 +243,42 @@ nav {
     margin-top: 4vh;
 }
 
-.group3 .row .col .promo {
+.group4 .row .col {
+    padding: 0;
+}
+
+.group4 .row .col .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.group4 .row .col .promo {
     background-color: #deb37e;
     color: white;
     padding: 28vh 8vw 10vh 11vw;
     height: 100%;
 }
 
-.group3 .row .col .promo h3 {
+.group4 .row .col .promo h3 {
     font-size: 2.5em;
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.group3 .row .col .promo p {
+.group4 .row .col .promo p {
     font-weight: 400;
     margin-top: 4vh;
 }
 
+.group4 .row .col button {
+    font-weight: 700;
+    background-color: #e2a355;
+    color: white;
+    width: 180px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin-top: 4vh;
+}
 
 
 
