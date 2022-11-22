@@ -280,6 +280,47 @@ nav {
     margin-top: 4vh;
 }
 
+/* Group 5 */
+.group5 .container-fluid .bg-up {
+    background-image: url(../img/cloud-up.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.container-fluid .bg-down {
+    background-image: url(../img/cloud-down.png);
+    background-position: bottom;
+    background-size: cover;
+    margin-top: 5vh;
+}
+
+.group5 {
+    background-image: url(../img/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left -50vh bottom;
+    background-attachment: fixed;
+    background-color: #7f7770;
+    min-height: 120vh;
+}
+
+.group5 .container {
+    min-height: 70vh;
+    text-align: center;
+    color: white;
+}
+
+.group5 .container h1 {
+    margin-bottom: .5em;
+    margin-top: 2.5em;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.group5 .container p {
+    font-size: 1.5em;
+    font-weight: 200;
+    
+}
 
 
 
