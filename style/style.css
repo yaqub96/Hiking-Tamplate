@@ -295,11 +295,14 @@ nav {
 }
 
 .group5 {
-    background-image: url(../img/bg-2.png);
+    background-image: url(../img/bg-3.png);
     background-repeat: no-repeat;
     background-position: left -50vh bottom;
     background-attachment: fixed;
     background-color: #7f7770;
+    position: relative;
+    z-index: -100;
+    opacity: 80%;
     min-height: 120vh;
 }
 
