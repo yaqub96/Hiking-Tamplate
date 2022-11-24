@@ -411,12 +411,42 @@ nav {
 /* Group 8 */
 .group8 {
     min-height: 100vh;
-    background-color: #e2a355;
+    background-color: #deb37e;
     position: relative;
-    z-index: -1000;
     margin: auto;
 }
 
+.group8 .container {
+    text-align: center;
+    width: 50%;
+}
+
+.group8 .container h1 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.group8 .container p {
+    margin-top: 2em;
+    color: #54524f;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.group8 .container .input-group {
+    width: 80%;
+    margin: 4em auto;
+}
+
+.group8 .container .input-group button {
+    z-index: 99999;
+    text-transform: uppercase;
+    background-color: #54524f;
+    font-weight: 700;
+    width: 150px;
+}
 
 /* Navbar
 .navbar .navbar-nav .nav-link {
