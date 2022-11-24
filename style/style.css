@@ -3,6 +3,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Separators */
+.sep-up {
+    background-image: url(../img/cloud-up.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 40vh;
+    width: 100%;
+}
+
+.sep-down {
+    background-image: url(../img/cloud-down.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 55vh;
+    margin-top: -20vh;
+}
+
 
 /* Navbar */
 nav {
@@ -54,7 +73,7 @@ nav {
 }
 
 
-/* Jumbotron */
+/* Hero */
 .jumbotron {
     background-image: url(../img/bg-1.png);
     background-repeat: no-repeat;
@@ -107,18 +126,8 @@ nav {
 }
 
 /* Group2 */
-.container-fluid {
-    background-image: url(../img/cloud-down.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    min-height: 55vh;
-    margin-top: -20vh;
-}
-
 @media (max-width: 1300px) {
-    .container-fluid {
+    .sep-down {
         margin-top: -25vh;
     }
 }
@@ -281,20 +290,6 @@ nav {
 }
 
 /* Group 5 */
-.group5 .container-fluid .bg-up {
-    background-image: url(../img/cloud-up.png);
-    background-position: top;
-    background-size: cover;
-}
-
-.container-fluid .bg-down {
-    background-image: url(../img/cloud-down.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 5vh;
-}
-
 .group5 {
     background-image: url(../img/bg-3.png);
     background-repeat: no-repeat;
@@ -365,7 +360,7 @@ nav {
 .group7 {
     background-image: url(../img/bg-4.png);
     background-position: bottom -38vh right -25vw;
-    position: relative;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
@@ -413,6 +408,14 @@ nav {
     margin-top: 4vh;
 }
 
+/* Group 8 */
+.group8 {
+    min-height: 100vh;
+    background-color: #e2a355;
+    position: relative;
+    z-index: -1000;
+    margin: auto;
+}
 
 
 /* Navbar
