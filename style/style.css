@@ -290,6 +290,7 @@ nav {
 .container-fluid .bg-down {
     background-image: url(../img/cloud-down.png);
     background-position: bottom;
+    background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5vh;
 }
@@ -313,8 +314,8 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .group5 .container {
-        margin-bottom: 4vh;
+    .group5 {
+        min-height: 180vh;
     }
 }
 
@@ -360,10 +361,57 @@ nav {
     text-shadow: 5px -2px 5px rgba(84, 82, 79, .36);
 }
 
+/* Group 7 */
+.group7 {
+    background-image: url(../img/bg-4.png);
+    background-position: bottom -38vh right -25vw;
+    position: relative;
+    background-repeat: no-repeat;
+}
 
+.group7 .container {
+    margin-top: -20vh;
+}
 
+.group7 .container .row {
+    margin: auto;
+}
 
+.group7 .container .col h4 {
+    color: #deb37e;
+    font-weight: 700;
+}
 
+.group7 .container .col p {
+    font-weight: 400;
+    color: #333d42;
+}
+
+.group7 .container .quote {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    color: #3f3f3f;
+    margin-top: 18vh;
+}
+
+.group7 .container .quote h1 {
+    font-weight: 700;
+    font-size: 10vh;
+    transform: rotate(180deg);
+    font-style: italic;
+}
+
+.group7 .container .quote p {
+    font-weight: 600;
+    font-size: 2.8vh;
+}
+
+.group7 .container .quote h6 {
+    font-weight: 700;
+    font-size: 2.8vh;
+    margin-top: 4vh;
+}
 
 
 
