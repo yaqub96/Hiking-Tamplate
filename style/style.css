@@ -22,6 +22,19 @@
     margin-top: -20vh;
 }
 
+.sep-down-foot {
+    background-image: url(../img/cloud-down-footer.png);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    min-height: 30vh;
+    margin-top: -5vh;
+    margin-bottom: -6vh;
+}
+
 
 /* Navbar */
 nav {
@@ -447,6 +460,46 @@ nav {
     font-weight: 700;
     width: 150px;
 }
+
+/* Group 9 */
+.group9 {
+    background-color: #7f7770;
+    min-height: 60vh;
+    padding-top: 30vh;
+    color: white;
+}
+
+.group9 .container {
+    margin: auto;
+}
+
+.group9 .container .row .col img {
+    height: 30px;
+    display: inline-block;
+    margin-right: .3em;
+}
+
+.group9 .container .row .col h5 {
+    text-transform: capitalize;
+    font-size: 2.3em;
+    margin-bottom: .5em;
+    font-weight: 400;
+}
+
+.group9 .container .row .col p {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.group9 .container .row .col .link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
 
 /* Navbar
 .navbar .navbar-nav .nav-link {
